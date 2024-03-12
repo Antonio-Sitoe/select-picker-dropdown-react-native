@@ -1,0 +1,9 @@
+{
+  "name": "select-picker-dropdown-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/select-picker-dropdown-e2e/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": [],
+  "implicitDependencies": ["select-picker-dropdown"]
+}

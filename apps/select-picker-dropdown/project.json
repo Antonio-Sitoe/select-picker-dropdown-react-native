@@ -1,0 +1,8 @@
+{
+  "name": "select-picker-dropdown",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/select-picker-dropdown/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
