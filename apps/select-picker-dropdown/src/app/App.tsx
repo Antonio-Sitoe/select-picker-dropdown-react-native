@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
+import { Select } from '@personal/ui';
 import React, { useRef, useState } from 'react';
 import {
   SafeAreaView,
@@ -15,7 +16,12 @@ import Svg, { G, Path } from 'react-native-svg';
 export const App = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
   const scrollViewRef = useRef<null | ScrollView>(null);
-
+  const [select, setSelect] = useState({ value: 'pt', label: 'Português' })
+  const data = [
+    { value: 'pt', label: 'Português' },
+    { value: 'em', label: 'Emakhwua' },
+    { value: 'shim', label: 'Shimakonde' },
+  ]
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -30,7 +36,11 @@ export const App = () => {
           }}
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}
+          contentContainerStyle={{
+            padding: 20
+          }}
         >
+
           <View style={styles.section}>
             <Text style={styles.textLg}>Hello there,</Text>
             <Text
@@ -41,6 +51,16 @@ export const App = () => {
               Welcome SelectPickerDropdown 👋
             </Text>
           </View>
+          <Select
+            data={data}
+            label={select}
+            onSelect={setSelect}
+            style={{
+              width:300,
+
+            }}
+
+          />
           <View style={styles.section}>
             <View style={styles.hero}>
               <View style={styles.heroTitle}>
