@@ -1,6 +1,7 @@
 {
-  "name": "@antonio",
+  "name": "select-picker-dropdown-react-native",
   "version": "0.0.1",
+  "author": "antoniositoehl@gmail.com",
   "main": "src/index.ts",
   "peerDependencies": {
     "react": "18.2.0",
