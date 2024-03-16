@@ -50,5 +50,18 @@
       }
     }
   ],
+  "targetDefaults": {
+    "build": {
+      "executor": "@nrwl/web:build",
+      "options": {
+        "outputPath": "dist/libs/react-native-select-picker-dropdown"
+      }
+    },
+    "@nx/rollup:rollup": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    }
+  },
   "nxCloudAccessToken": "YzM5YWJjNjMtMmRkNi00NzU2LWI1ODMtZDQwMjAyYjdmNjA0fHJlYWQtd3JpdGU="
 }

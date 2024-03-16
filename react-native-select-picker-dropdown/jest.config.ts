@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'ui',
+  displayName: 'react-native-select-picker-dropdown',
   resolver: '@nx/jest/plugins/resolver',
   preset: 'jest-expo',
   moduleFileExtensions: ['ts', 'js', 'html', 'tsx', 'jsx'],

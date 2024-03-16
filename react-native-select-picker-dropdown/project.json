@@ -1,0 +1,28 @@
+{
+  "name": "react-native-select-picker-dropdown",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "react-native-select-picker-dropdown/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/react-native-select-picker-dropdown",
+        "tsConfig": "react-native-select-picker-dropdown/tsconfig.lib.json",
+        "project": "react-native-select-picker-dropdown/package.json",
+        "entryFile": "react-native-select-picker-dropdown/src/index.ts",
+        "external": ["react/jsx-runtime", "react-native", "react", "react-dom"],
+        "rollupConfig": "@nx/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "react-native-select-picker-dropdown/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    }
+  }
+}
