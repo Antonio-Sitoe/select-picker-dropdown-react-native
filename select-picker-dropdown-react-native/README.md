@@ -3,9 +3,11 @@
 The Select component is a customizable dropdown menu for React Native applications.
 
 ## Installation
-# Using npm
+
+### Using npm
 ```npm i select-picker-dropdown-react-native```
-# Using yarn
+
+### Using yarn
 ```yarn add select-picker-dropdown-react-native```
 
 ### Usage
