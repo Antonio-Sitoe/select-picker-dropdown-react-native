@@ -7,7 +7,7 @@ The Select component is a customizable dropdown menu for React Native applicatio
 ```jsx
 import React from 'react';
 import { View } from 'react-native';
-import { Select } from './Select';
+import { Select } from 'select-picker-dropdown-react-native';
 
 const MyComponent = () => {
   const options = [
