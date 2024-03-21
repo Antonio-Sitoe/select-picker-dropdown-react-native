@@ -1,6 +1,6 @@
 {
   "name": "select-picker-dropdown-react-native",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "antoniositoehl@gmail.com",
   "main": "src/index.ts",
   "peerDependencies": {
