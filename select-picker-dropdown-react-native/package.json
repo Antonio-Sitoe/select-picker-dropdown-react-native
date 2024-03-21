@@ -1,12 +1,30 @@
 {
   "name": "select-picker-dropdown-react-native",
-  "version": "0.0.2",
-  "author": "antoniositoehl@gmail.com",
+  "version": "0.0.3",
+  "author": "Antonio Sitoe (antoniositoehl@gmail.com)",
   "main": "src/index.ts",
   "peerDependencies": {
     "react": "18.2.0",
     "react-native": "0.73.2"
   },
+  "keywords": [
+    "react-native",
+    "android",
+    "ios",
+    "dropdown",
+    "option",
+    "selector",
+    "picker",
+    "menu",
+    "modal",
+    "dropdown",
+    "select",
+    "component",
+    "ui",
+    "customizable",
+    "mobile",
+    "native"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Antonio-Sitoe/select-picker-dropdown-react-native/tree/main/select-picker-dropdown-react-native"
