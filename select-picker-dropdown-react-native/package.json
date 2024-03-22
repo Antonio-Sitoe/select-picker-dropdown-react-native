@@ -1,12 +1,12 @@
 {
   "name": "select-picker-dropdown-react-native",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Antonio Sitoe (antoniositoehl@gmail.com)",
   "main": "src/index.ts",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-native": "^0.73.2"
-   },
+  },
   "keywords": [
     "react-native",
     "android",
